@@ -12,7 +12,7 @@ import { BudgetKeyCommonModule } from 'budgetkey-ng2-components';
 import {SearchResultBudgetComponent} from "./search_result/search_result.component";
 import {SearchResultChangesComponent} from "./search_result/search_result.component";
 import {SearchResultExemptionComponent} from "./search_result/search_result.component";
-import {SearchResultProcurementComponent} from "./search_result/search_result.component";
+import {SearchResultContractSpendingComponent} from "./search_result/search_result.component";
 import {SearchResultSupportsComponent} from "./search_result/search_result.component";
 import {SearchResultEntitiesComponent} from "./search_result/search_result.component";
 
@@ -28,7 +28,7 @@ import {SearchResultEntitiesComponent} from "./search_result/search_result.compo
     SearchResultBudgetComponent,
     SearchResultChangesComponent,
     SearchResultExemptionComponent,
-    SearchResultProcurementComponent,
+    SearchResultContractSpendingComponent,
     SearchResultSupportsComponent,
     SearchResultEntitiesComponent
   ],

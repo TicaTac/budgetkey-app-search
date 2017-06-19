@@ -68,13 +68,13 @@ export class SearchResultExemptionComponent implements OnInit {
   }
 }
 
-// procurement Component
+// Contract Spending Component
 @Component({
   moduleId: module.id,
-  selector: 'search-result-procurement',
-  template: require('./search_result_procurement.component.html!text'),
+  selector: 'search-result-contract-spending',
+  template: require('./search_result_contract_spending.component.html!text'),
 })
-export class SearchResultProcurementComponent implements OnInit {
+export class SearchResultContractSpendingComponent implements OnInit {
   @Input() item: DocResultEntry;
   details: string;
 

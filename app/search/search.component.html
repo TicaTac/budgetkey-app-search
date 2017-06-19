@@ -84,7 +84,7 @@
         <search-result-exemption [item]="item"></search-result-exemption>
     </div>
     <div *ngIf="item.type == 'contractspending' && (displayDocs === 'contractspending' || displayDocs  === 'all')">
-        <search-result-procurement [item]="item"></search-result-procurement>
+        <search-result-contract-spending [item]="item"></search-result-contract-spending>
     </div>
   </div>
 <!--<div class="search_body" (scroll)="fetchMore(searchBox.value)">
